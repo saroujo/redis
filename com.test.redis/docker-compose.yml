@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+  java-service:
+    build: .
+    volumes:
+        - .:/app 
+    links:
+      - redis
+    depends_on:
+      - redis  
+    ports:
+      - "8080:8080"    

@@ -1,0 +1,6 @@
+com/task/redis/RedisService.class
+com/test/redis/xml/ConfigResponse.class
+com/test/redis/xml/ConfigConstants.class
+com/test/redis/xml/ConfigReader.class
+com/test/redis/xml/XMLException.class
+com/task/redis/DataProcessor.class
